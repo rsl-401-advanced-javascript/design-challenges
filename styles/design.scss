@@ -1,0 +1,10 @@
+@import './core/variables';
+
+header, footer, main {
+  margin: $space;
+}
+
+header, footer {
+  background-color: $rootColor;
+  color: $accentColor;
+}
