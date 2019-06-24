@@ -14,13 +14,22 @@
   align-content: $alignContent;
 }
 
-@mixin center() {
+@mixin center {
   justify-content: center;
   align-content: center;
 }
 
-@mixin boxShadow() {
+@mixin boxShadow {
   -webkit-box-shadow: 10px 10px 8px $rootColor;
   -moz-box-shadow: 10px 10px 8px $rootColor;
   box-shadow: 10px 10px 8px $rootColor;
+}
+
+@mixin notMain {  
+  background-color: $rootColor;
+  color: $accentColor;
+}
+
+@mixin links {
+  text-decoration: none;
 }

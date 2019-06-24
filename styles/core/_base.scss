@@ -1,0 +1,9 @@
+@import './reset', './header', './footer';
+
+header, footer, main {
+  margin: $space;
+}
+
+a {
+  @include links;
+}

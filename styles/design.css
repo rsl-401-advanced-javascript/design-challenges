@@ -1,0 +1,15 @@
+header {
+  background-color: #333;
+  color: #F4AC45;
+}
+
+footer {
+  background-color: #333;
+  color: #F4AC45;
+}
+
+header, footer, main {
+  margin: 30px;
+}
+
+/*# sourceMappingURL=design.css.map */
