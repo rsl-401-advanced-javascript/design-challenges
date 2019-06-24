@@ -1,0 +1,26 @@
+@mixin borderRadius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin flex($dir, $wrap, $flow, $just, $alignItems, $alignContent) {
+  display: flexbox;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  flex-flow: $flow;
+  justify-content: $just;
+  align-items: $alignItems;
+  align-content: $alignContent;
+}
+
+@mixin center() {
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin boxShadow() {
+  -webkit-box-shadow: 10px 10px 8px $rootColor;
+  -moz-box-shadow: 10px 10px 8px $rootColor;
+  box-shadow: 10px 10px 8px $rootColor;
+}
