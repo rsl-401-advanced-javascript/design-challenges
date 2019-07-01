@@ -8,19 +8,23 @@ footer {
   color: #F4AC45;
 }
 
-nav {
+header nav {
   clear: both;
   overflow: hidden;
 }
-nav .nav-div {
+header nav .nav-div {
   float: left;
+}
+
+.nav-div {
   text-align: center;
   width: 25%;
 }
-nav .nav-div:hover > ul {
+.nav-div:hover > ul {
   display: block;
 }
-nav ul {
+
+ul {
   display: none;
 }
 
