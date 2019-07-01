@@ -8,8 +8,32 @@ footer {
   color: #F4AC45;
 }
 
+header nav {
+  clear: both;
+  overflow: hidden;
+}
+header nav .nav-div {
+  float: left;
+}
+
+.nav-div {
+  text-align: center;
+  width: 25%;
+}
+.nav-div:hover > ul {
+  display: block;
+}
+
+ul {
+  display: none;
+}
+
 header, footer, main {
   margin: 30px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=design.css.map */
