@@ -1,7 +1,9 @@
-@import './reset', './header', './footer', './nav';
+@import './reset', './header', './footer', './nav', './form';
 
 header, footer, main {
   margin: $space;
+  clear: both;
+  overflow: hidden;
 }
 
 a {
