@@ -1,16 +1,17 @@
 header nav {
   @include nav;
-  clear: both;
-  overflow: hidden;
 
   .nav-div {
     float: left;
   }
 }
 
+header .nav-div {
+  width: 25%;
+}
+
 .nav-div {
   text-align: center;
-  width: 25%;
 
   &:hover > ul {
     display: block;
