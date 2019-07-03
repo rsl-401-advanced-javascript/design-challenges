@@ -82,6 +82,40 @@
         </ul>
       </div>
     </aside>
+    <form>
+      <fieldset>
+        <legend>Who are you?:</legend>
+        <label>Name:</label>
+        <input type="text" placeholder="John Doe">
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <label>Modes of transportation:</label>
+        <input type="checkbox" value="bike">Bike
+        <input type="checkbox" value="car">Car
+        <input type="checkbox" value="boat">Boat
+        <label>Cowbell:</label>
+        <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="20">
+        <label>Current country of residence:</label>
+        <select>
+          <optgroup label="North America">
+            <option value="canada">Canada</option>
+            <option value="united-states">United States</option>
+            <option value="mexico">Mexico</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option value="united-kingdom">United Kingdom</option>
+            <option value="spain">Spain</option>
+            <option value="france">France</option>
+          </optgroup>
+        </select>
+        <label>Describe yourself:</label>
+        <textarea></textarea>
+        <label>Annual salary:</label>
+        <input type="number">
+      </fieldset>
+    </form>
   </main>
   <footer>Footer</footer>
 </body>
