@@ -8,17 +8,16 @@ footer {
   color: #F4AC45;
 }
 
-header nav {
-  clear: both;
-  overflow: hidden;
-}
 header nav .nav-div {
   float: left;
 }
 
+header .nav-div {
+  width: 25%;
+}
+
 .nav-div {
   text-align: center;
-  width: 25%;
 }
 .nav-div:hover > ul {
   display: block;
@@ -28,8 +27,54 @@ ul {
   display: none;
 }
 
+form {
+  font-family: "Helvetica";
+  float: right;
+  width: 80%;
+}
+
+aside {
+  float: left;
+  width: 20%;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #333;
+  color: #F4AC45;
+  padding: 2px 0 2px 5px;
+}
+
+input[type=text], input[type=number] {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: transparent;
+  padding: 5px;
+}
+input[type=text]:focus, input[type=number]:focus {
+  border-bottom: 2px solid #000;
+  outline-color: #ccc;
+}
+
+textarea {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: transparent;
+  resize: none;
+  width: 40vw;
+}
+textarea:focus {
+  border-bottom: 2px solid #000;
+  outline-color: #ccc;
+}
+
 header, footer, main {
   margin: 30px;
+  clear: both;
+  overflow: hidden;
 }
 
 a {
