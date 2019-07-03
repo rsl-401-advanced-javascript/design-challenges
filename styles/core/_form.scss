@@ -1,0 +1,49 @@
+@import '../lib/variables';
+
+form {
+  font-family: "Helvetica";
+  float: right;
+  width: 80%;
+}
+
+aside {
+  float: left;
+  width: 20%;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: $rootColor;
+  color: $accentColor;
+  padding: 2px 0 2px 5px;
+}
+
+input {
+  &[type=text], &[type=number] {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    padding: 5px;
+
+    &:focus {
+      border-bottom: 2px solid #000;
+      outline-color: #ccc;
+    }
+  }
+}
+
+textarea {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: transparent;
+  resize: none;
+  width: 40vw;
+
+  &:focus {
+    border-bottom: 2px solid #000;
+    outline-color: #ccc;
+  }
+}
