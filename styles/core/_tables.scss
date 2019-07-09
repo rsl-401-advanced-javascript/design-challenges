@@ -1,0 +1,32 @@
+@import '../lib/variables';
+
+table {
+  padding-top: 30px;
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  font-weight: 700;
+  border-spacing: 0;
+
+  tbody {
+    width: 100%;
+    tr {
+      width: 33%;
+      background-color: $accentColor;
+      color: $rootColor;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    tr:nth-of-type(2n+2) {
+      background-color: $rootColor;
+      color: $accentColor;
+    }
+  }
+  
+  th, td {
+    border-bottom: 1px solid $rootColor;
+  }
+}

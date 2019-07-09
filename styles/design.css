@@ -71,6 +71,33 @@ textarea:focus {
   outline-color: #ccc;
 }
 
+table {
+  padding-top: 30px;
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  font-weight: 700;
+  border-spacing: 0;
+}
+table tbody {
+  width: 100%;
+}
+table tbody tr {
+  width: 33%;
+  background-color: #F4AC45;
+  color: #333;
+}
+table tbody tr:hover {
+  transform: scale(1.2);
+}
+table tbody tr:nth-of-type(2n+2) {
+  background-color: #333;
+  color: #F4AC45;
+}
+table th, table td {
+  border-bottom: 1px solid #333;
+}
+
 header, footer, main {
   margin: 30px;
   clear: both;
